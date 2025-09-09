@@ -1,0 +1,51 @@
+#ctkID {
+    color:aqua;
+    background-color: #000000;
+}
+
+.tech {
+    background-color:#00046b;
+}
+
+.digital {
+    color:aqua;
+}
+
+.normal {
+    color:white;
+}
+
+.online {
+    color: white;
+    background-color: black;
+}
+
+.redbird {
+    background-color: #8f0000;
+}
+
+.techno {
+    color:#00046b;
+}
+
+.spanstyle {
+    color:rgb(0, 225, 255);
+}
+
+a {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
