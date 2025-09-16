@@ -1,0 +1,83 @@
+h1 {
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2 {
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 {
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.border{
+    border: 10px solid black;
+    padding: 5px 5px 5px 5px;
+    background-color: yellow;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-sherif;
+    background-image: url(sillycat.jpg);
+    background-position: center center;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+
+.tech {
+    background-color:#00046b;
+}
+
+.digital {
+    color:aqua;
+    text-align: center;
+}
+
+.normal {
+    color:white;
+}
+
+.online {
+    color: white;
+    background-color: black;
+}
+
+.redbird {
+    background-color: #8f0000;
+}
+
+.techno {
+    color:#00046b;
+    text-align: center;
+}
+
+.spanstyle {
+    color:rgb(0, 225, 255);
+}
+
+a {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
