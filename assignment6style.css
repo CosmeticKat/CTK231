@@ -1,0 +1,124 @@
+nav {
+    grid-column: span 3;
+    padding-left: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    width: 200px;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: red;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    background-color: red;
+}
+
+nav li a:hover {
+    background-color: maroon;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    grid-column: span 9;
+    padding-right: 15px;
+    padding-top: 0px;
+}
+
+#wrapper {
+    background-color: white;
+    border: 3px solid black;
+    width: 1000px;
+    margin: 1em auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+.floatimg {
+    float: left;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-sherif;
+    font-weight: normal;
+    color: white;
+    display: block;
+    background-color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px 15px;
+    grid-column: span 12;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-sherif;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    border-top: 3px solid black;
+    display: block;
+    padding: 20px;
+    background-color: red;
+    grid-column: span 12;
+
+}
+
+.diff {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.justify {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+
+}
+
+
+.weirdlink {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+main {
+    background-color: white;
+    display:block;
+    padding: opx;
+}
+
+body {
+    background-image: url(a62.png);
+    background-position: center center;
+}
