@@ -1,0 +1,96 @@
+body {
+  background-color: #999999;
+}
+
+
+nav {
+    grid-column: span 12;
+    padding-left: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    height: 150px;
+    width: 397px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+nav li a {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 25px ;
+    padding: 20px;
+    height: 50px;
+}
+
+nav li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  max-height: 900px;
+  border: 10px solid black;
+  background-image: url(cosmo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-rows: 900px; /* This is for the dummy columns, replace or delete */
+}
+
+.mainimage {
+  background-image: url(Cosmetic\ PRoduction\ Design\ CM.png);
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-sherif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 0px;
+    padding: 20px 20px;
+    grid-column: span 12;
+}
+
+
+.testrun {
+    background-image: linear-gradient(to bottom, #0020ff, #0b16d1, #0c0ea5, #0a067b, #070054);
+    grid-column: span 12;
+    height: 150px;
+    border-bottom: 10px solid black;
+}
+.main {
+  position: fixed;
+  display: block;
+}
+
+.textbox {
+  text-align: center;
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-row: span 1;
+}
