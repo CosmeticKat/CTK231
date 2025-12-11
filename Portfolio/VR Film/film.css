@@ -1,0 +1,53 @@
+#wrapper {
+    background-color: rgb(29, 0, 136);
+    border: 5px solid rgb(0, 0, 109);
+    width: 1300px;
+    margin: 1em auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+body {
+    background-image: url(vrcbackground.png);
+}
+
+h1 {
+    font-size: 125px;
+    grid-column: span 12;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: "Poiret One", sans-serif;
+
+}
+
+h2 {
+    font-family: "Poiret One", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    border-bottom:5px solid rgb(0, 0, 0);
+}
+
+.deltarune {
+    width: 720px;
+    height: 405px;
+
+}
+
+.right {
+    color: white;
+    grid-column: span 6;
+    font-size: 24px;
+    padding-top: 110px;
+    padding-left: 10px;
+    text-align: justify;
+
+}
+.project {
+    grid-column: span 6;
+
+}
